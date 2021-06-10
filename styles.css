@@ -1,0 +1,70 @@
+/*large heading*/
+header {
+    font-size: 40px;
+}
+
+/*Set header and footer to teal color, text to color of "main", reduce margins, set the font type, and align text to center */
+header, footer {
+    background: #00adb5;
+    color: #393e46;
+    font-family: 'Source Code Pro', monospace, serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/* Eliminate white space between header/footer and main */
+header, footer, main {
+    overflow: auto;
+}
+
+/*Set background color to dark grey color, text color to white, establish font type for "main" section, eliminate margins, set padding */
+main {
+    background: #393e46;
+    color: #eeeeee;
+    font-family: 'Baloo Tammudu 2', cursive, sans-serif;
+    margin: 0px;
+    padding: 5px;
+}
+
+/* Add border around name in header */
+h1 {
+    border:5px solid #393e46;
+}
+
+/*center all text in "main" except for lists */
+h2, p, h3 {
+    text-align: center;
+}
+
+/*move list so bullets are aligned in center of page */
+ul, ol {
+    padding: 0% 0% 0% 40%;
+}
+
+/*Center photo, add padding between edge of container and photo, set width to 30% of size of page */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:4%;
+    width: 30%;
+    height: 30%;
+    
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/*style links at varying stages of use */
+
+a:link, a:visited {
+    color: #393e46
+}    
+
+a:hover, a:active {
+    color: #eeeeee
+}
+
